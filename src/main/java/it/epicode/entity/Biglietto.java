@@ -9,5 +9,5 @@ import lombok.Data;
 @Table(name = "biglietti")
 public class Biglietto extends TitoloViaggio {
     @OneToOne(mappedBy = "biglietto")
-    private Utente titolareTessera;
+    private Utente titolareBiglietto;
 }
