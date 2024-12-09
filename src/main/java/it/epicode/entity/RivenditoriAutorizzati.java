@@ -6,10 +6,6 @@ import lombok.Data;
 
 @Data
 @Entity
+@Table(name = "rivenditori_autorizzati")
 public class RivenditoriAutorizzati extends Biglietteria {
-    @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
-    private Long id;
-
-
 }

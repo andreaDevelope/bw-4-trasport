@@ -6,10 +6,6 @@ import lombok.Data;
 
 @Data
 @Entity
+@Table(name = "abbonamenti")
 public class Abbonamento extends TitoloViaggio {
-    @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
-    private Long id;
-
-
 }

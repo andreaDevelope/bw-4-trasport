@@ -1,7 +1,5 @@
 package it.epicode.entity.single_table_classes;
 
-import it.epicode.entity.ParcoMezzi;
-import it.epicode.entity.Validazione;
 import jakarta.persistence.*;
 import lombok.Data;
 
@@ -10,17 +8,18 @@ import java.util.List;
 
 @Data
 @Entity
-@Table(name = "mezzi")
+@Table(name = "tratte")
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
-public class Mezzo {
+public class Tratta {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
 
-    @ManyToOne
-    @JoinColumn(name = "parco_mezzi_id")
-    private ParcoMezzi rimessa;
-
-    @ManyToMany(mappedBy = "mezzi")
-    private List<Validazione> validazioni = new ArrayList<>();
+    @ManyToMany
+    @JoinTable(
+            name = "tratte_mezzi",
+            joinColumns = @JoinColumn(name = "tratta_id"),
+            inverseJoinColumns = @JoinColumn(name = "mezzo_id")
+    )
+    private List<Mezzo> mezzi = new ArrayList<>();
 }

@@ -6,11 +6,8 @@ import lombok.Data;
 
 @Data
 @Entity
-@NamedQuery(name = "Trova_tutto_Biglietto", query = "SELECT a FROM Biglietto a")
+@Table(name = "biglietti")
 public class Biglietto extends TitoloViaggio {
-    @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
-    private Long id;
-
-
+    @OneToOne(mappedBy = "biglietto")
+    private Utente titolareTessera;
 }

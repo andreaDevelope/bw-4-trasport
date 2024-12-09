@@ -9,13 +9,12 @@ import java.util.List;
 
 @Data
 @Entity
+@Table(name = "parchi_mezzi")
 public class ParcoMezzi {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
-    @OneToMany
-    private List<Mezzo> mezzi= new ArrayList<>();
 
-
-
+    @OneToMany(mappedBy = "rimessa", cascade = CascadeType.ALL)
+    private List<Mezzo> mezzi = new ArrayList<>();
 }

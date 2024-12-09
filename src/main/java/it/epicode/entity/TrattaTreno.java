@@ -1,6 +1,6 @@
 package it.epicode.entity;
 
-import it.epicode.entity.single_table_classes.Mezzo;
+import it.epicode.entity.single_table_classes.Tratta;
 import jakarta.persistence.*;
 import lombok.Data;
 
@@ -9,14 +9,14 @@ import java.util.List;
 
 @Data
 @Entity
-@NamedQuery(name = "Trova_tutto_Treno", query = "SELECT a FROM Treno a")
-public class Treno extends Mezzo {
+@NamedQuery(name = "Trova_tutto_TrattaTreno", query = "SELECT a FROM TrattaTreno a")
+public class TrattaTreno extends Tratta {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
 
     @ManyToMany
-    private List<TrattaTreno> listaTratteTreno=new ArrayList<>();
+    private List<Treno> listaTreni=new ArrayList<>();
 
 
 }

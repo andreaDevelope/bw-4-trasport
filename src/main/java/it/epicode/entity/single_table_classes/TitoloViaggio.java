@@ -6,6 +6,7 @@ import lombok.Data;
 
 @Data
 @Entity
+@Table(name = "titoli_viaggio")
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 public class TitoloViaggio {
     @Id
@@ -13,11 +14,10 @@ public class TitoloViaggio {
     private Long id;
 
     @ManyToOne
+    @JoinColumn(name = "validazione_id")
     private Validazione validazione;
 
     @ManyToOne
+    @JoinColumn(name = "biglietteria_id")
     private Biglietteria biglietteria;
-
-
-
 }

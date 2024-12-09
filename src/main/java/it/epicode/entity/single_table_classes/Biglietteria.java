@@ -8,13 +8,13 @@ import java.util.List;
 
 @Data
 @Entity
+@Table(name = "biglietterie")
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 public class Biglietteria {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
 
-    @OneToMany
-    List<TitoloViaggio> titoliViaggio = new ArrayList<>();
-
+    @OneToMany(mappedBy = "biglietteria", cascade = CascadeType.ALL)
+    private List<TitoloViaggio> titoliViaggio = new ArrayList<>();
 }

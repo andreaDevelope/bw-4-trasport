@@ -4,15 +4,13 @@ import it.epicode.entity.single_table_classes.Mezzo;
 import jakarta.persistence.*;
 import lombok.Data;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @Data
 @Entity
-@NamedQuery(name = "Trova_tutto_Autobus", query = "SELECT a FROM Autobus a")
+@Table(name = "autobus")
 public class Autobus extends Mezzo {
-    @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
-    private Long id;
-
-
-
-
+    @ManyToMany(mappedBy = "listaAutobus")
+    private List<TrattaAutobus> listaTratte = new ArrayList<>();
 }
