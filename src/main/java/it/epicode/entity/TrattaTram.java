@@ -10,13 +10,13 @@ import java.util.List;
 @Data
 @Entity
 @NamedQuery(name = "Trova_tutto_TrattaTreno", query = "SELECT a FROM TrattaTreno a")
-public class TrattaTreno extends Tratta {
+public class TrattaTram extends Tratta {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
 
     @ManyToMany
-    private List<Treno> listaTreni=new ArrayList<>();
+    private List<Tram> listaTreni=new ArrayList<>();
 
 
 }
