@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f1899f3-2778-464e-a34c-0bc11dab4174" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/entity/Autobus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/entity/Autobus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/entity/Biglietto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/entity/Biglietto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/entity/Tram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/entity/Tram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/entity/Tratta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/entity/Tratta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/entity/Utente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/entity/Utente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/entity/single_table_classes/Mezzo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/entity/single_table_classes/Mezzo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/entity/single_table_classes/TitoloViaggio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/entity/single_table_classes/TitoloViaggio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +47,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.PopolaDB.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",

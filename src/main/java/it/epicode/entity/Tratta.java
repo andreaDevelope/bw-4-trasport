@@ -24,7 +24,7 @@ public class Tratta {
     @Column(name = "tempo_previsto")
     private int tempoPrevisto; // Tempo di percorrenza previsto
 
-    @Column(name = "tempo_previsto")
+    @Column(name = "tempo_effettivo")
     private int tempoEffettivo;
 
     @ManyToMany
