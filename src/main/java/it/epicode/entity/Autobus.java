@@ -11,6 +11,6 @@ import java.util.List;
 @Entity
 @Table(name = "autobus")
 public class Autobus extends Mezzo {
-    @ManyToMany(mappedBy = "listaAutobus")
-    private List<Tratta> listaTratte = new ArrayList<>();
+    @OneToMany(mappedBy = "autobus", cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<Tratta> listaTratte;
 }

@@ -31,4 +31,8 @@ public class Tratta {
             inverseJoinColumns = @JoinColumn(name = "mezzo_id")
     )
     private List<Mezzo> mezzi = new ArrayList<>();
+
+    @ManyToOne
+    @JoinColumn(name = "autobus_id") // Nome della colonna nella tabella Tratta che fa riferimento alla tabella Autobus
+    private Autobus autobus;
 }
