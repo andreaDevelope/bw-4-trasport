@@ -1,6 +1,8 @@
 package it.epicode.entity;
 
 import it.epicode.entity.single_table_classes.TitoloViaggio;
+import it.epicode.exception.TesseraException;
+import it.epicode.exception.TesseraUtenteException;
 import jakarta.persistence.*;
 import lombok.Data;
 
@@ -13,6 +15,21 @@ public class Utente {
     private Long id;
 
     private boolean isAdmin;
+
+    public Utente(boolean isAdmin) {
+        this.isAdmin = isAdmin;
+    }
+
+    public void setTessera(Tessera tessera) throws TesseraUtenteException {
+        if (tessera == null) {
+            throw new TesseraUtenteException("La tessera non può essere null.");
+        }
+        this.tessera = tessera;
+    }
+
+    public Tessera getTessera() {
+        return tessera;
+    }
 
     @OneToOne
     @JoinColumn(name = "titolo_viaggio")

@@ -19,17 +19,28 @@ public class Validazione {
 
     private boolean validato;
 
-    public void validazione(Utente u, Tessera t) throws TesseraException {
-        if (t.getAbbonamenti().isEmpty()){
-            System.out.println("Devi possedere un titolo di viaggio");
-            validato = false;
-            System.out.println(validato);
-            throw new TesseraException("");
-        } else{
-            System.out.println("Validazione eseguita");
-            validato = true;
-            System.out.println(validato);
+    public boolean validazione(Utente u) {
+        if (u.getTessera() == null) {
+            System.out.println("L'utente non possiede una tessera.");
+            return false;
         }
+
+        Tessera tessera = u.getTessera();
+
+        // Verifica se l'utente ha abbonamenti
+        if (tessera.getAbbonamenti() == null || tessera.getAbbonamenti().isEmpty()) {
+            System.out.println("La tessera non contiene abbonamenti validi.");
+            return false;
+        }
+
+        // Se il titolo di viaggio non è valido
+        if (u.getTitoloViaggio() == null || u.getTitoloViaggio().getBiglietto() == null) {
+            System.out.println("Devi possedere un titolo di viaggio.");
+            return false;
+        }
+
+        System.out.println("Validazione eseguita.");
+        return true;
     }
 
     @OneToMany(mappedBy = "validazione", cascade = CascadeType.ALL)
