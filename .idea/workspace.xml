@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f1899f3-2778-464e-a34c-0bc11dab4174" name="Changes" comment="" />
+    <list default="true" id="9f1899f3-2778-464e-a34c-0bc11dab4174" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/entity/Autobus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/entity/Autobus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/entity/Biglietto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/entity/Biglietto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/entity/Tram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/entity/Tram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/entity/Tratta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/entity/Tratta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/entity/Utente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/entity/Utente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/entity/single_table_classes/Mezzo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/entity/single_table_classes/Mezzo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/entity/single_table_classes/TitoloViaggio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/entity/single_table_classes/TitoloViaggio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,12 +37,12 @@
     &quot;assignee&quot;: &quot;andreaDevelope&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/andreaDevelope/bw-4-trasport.git&quot;,
-    &quot;accountId&quot;: &quot;f4213051-110f-49ca-b3d2-7c6b5f706f25&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/andreaDevelope/bw-4-trasport.git",
+    "accountId": "6c58fad3-45f4-4127-9c77-564960fc816f"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -47,25 +56,10 @@
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Andrea",
+    "git-widget-placeholder": "Corinne__new",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="bw-4-trasport" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="bw-4-trasport" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
