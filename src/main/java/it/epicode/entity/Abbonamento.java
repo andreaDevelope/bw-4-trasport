@@ -10,4 +10,8 @@ import lombok.Data;
 public class Abbonamento extends TitoloViaggio {
     @Column(name = "valido_fino")
     private String validoFino; // Data di validità dell'abbonamento
+
+    @ManyToOne
+    @JoinColumn(name = "tessera_id")
+    private Tessera tessera;
 }
