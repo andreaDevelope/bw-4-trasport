@@ -1,5 +1,6 @@
 package it.epicode.entity.single_table_classes;
 
+import it.epicode.entity.Biglietto;
 import it.epicode.entity.Utente;
 import it.epicode.entity.Validazione;
 import jakarta.persistence.*;
@@ -13,6 +14,8 @@ public class TitoloViaggio {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
+
+    private Biglietto biglietto;
 
     @ManyToOne
     @JoinColumn(name = "validazione_id")

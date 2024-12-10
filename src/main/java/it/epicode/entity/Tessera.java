@@ -4,6 +4,7 @@ import it.epicode.entity.single_table_classes.Biglietteria;
 import jakarta.persistence.*;
 import lombok.Data;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -14,6 +15,12 @@ public class Tessera {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
+
+    @JoinColumn
+    private LocalDate dataEmissione;
+
+    @JoinColumn
+    private LocalDate dataScadenza;
 
     @ManyToOne
     @JoinColumn(name = "biglietteria_id")

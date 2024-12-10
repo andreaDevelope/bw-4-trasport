@@ -12,6 +12,8 @@ public class Utente {
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
 
+    private boolean isAdmin;
+
     @OneToOne
     @JoinColumn(name = "titolo_viaggio")
     private TitoloViaggio titoloViaggio;
