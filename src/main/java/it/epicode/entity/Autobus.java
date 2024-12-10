@@ -12,5 +12,5 @@ import java.util.List;
 @Table(name = "autobus")
 public class Autobus extends Mezzo {
     @ManyToMany(mappedBy = "listaAutobus")
-    private List<TrattaAutobus> listaTratte = new ArrayList<>();
+    private List<Tratta> listaTratte = new ArrayList<>();
 }

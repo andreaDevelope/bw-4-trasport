@@ -17,7 +17,7 @@ public class Validazione {
     private Long id;
 
     @OneToMany(mappedBy = "validazione", cascade = CascadeType.ALL)
-    private List<TitoloViaggio> titoliViagio = new ArrayList<>();
+    private List<TitoloViaggio> titoliViaggio = new ArrayList<>();
 
     @ManyToMany
     @JoinTable(

@@ -8,4 +8,6 @@ import lombok.Data;
 @Entity
 @Table(name = "abbonamenti")
 public class Abbonamento extends TitoloViaggio {
+    @Column(name = "valido_fino")
+    private String validoFino; // Data di validità dell'abbonamento
 }

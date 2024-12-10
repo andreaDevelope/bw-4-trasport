@@ -16,7 +16,7 @@ public class Tram extends Mezzo {
     private Long id;
 
     @ManyToMany
-    private List<TrattaTram> listaTratteTreno=new ArrayList<>();
+    private List<Tratta> listaTratte=new ArrayList<>();
 
 
 }

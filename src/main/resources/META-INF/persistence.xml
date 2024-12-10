@@ -6,7 +6,7 @@
     <persistence-unit name="unit-jpa">
         <properties>
             <!-- Configurazione del database e del server-->
-            <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/sistema-trasporti"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/sistema_trasporti"/>
             <!-- user del db-->
             <property name="javax.persistence.jdbc.user" value="postgres"/>
             <!-- password del db-->

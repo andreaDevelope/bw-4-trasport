@@ -15,6 +15,15 @@ public class Tratta {
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
 
+    @Column(name = "zona_partenza")
+    private String zonaPartenza;
+
+    @Column(name = "zona_arrivo")
+    private String zonaArrivo;
+
+    @Column(name = "tempo_previsto")
+    private int tempoPrevisto; // Tempo di percorrenza previsto
+
     @ManyToMany
     @JoinTable(
             name = "tratte_mezzi",

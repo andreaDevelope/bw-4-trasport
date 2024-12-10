@@ -1,6 +1,7 @@
 package it.epicode.entity.single_table_classes;
 
 import it.epicode.entity.ParcoMezzi;
+import it.epicode.entity.Tratta;
 import it.epicode.entity.Validazione;
 import jakarta.persistence.*;
 import lombok.Data;
@@ -23,4 +24,7 @@ public class Mezzo {
 
     @ManyToMany(mappedBy = "mezzi")
     private List<Validazione> validazioni = new ArrayList<>();
+
+    @ManyToMany(mappedBy = "mezzi")
+    private List<Tratta> tratte = new ArrayList<>();
 }
