@@ -2,6 +2,7 @@ package it.epicode.entity;
 
 import it.epicode.entity.single_table_classes.Mezzo;
 import it.epicode.entity.single_table_classes.TitoloViaggio;
+import it.epicode.exception.TesseraException;
 import jakarta.persistence.*;
 import lombok.Data;
 
@@ -18,13 +19,16 @@ public class Validazione {
 
     private boolean validato;
 
-    public boolean validazione(Utente u){
-        if (u.getTessera().getAbbonamenti().equals(null) || u.getTitoloViaggio().getBiglietto().equals(null)){
+    public void validazione(Utente u, Tessera t) throws TesseraException {
+        if (t.getAbbonamenti().isEmpty()){
             System.out.println("Devi possedere un titolo di viaggio");
-            return false;
+            validato = false;
+            System.out.println(validato);
+            throw new TesseraException("");
         } else{
             System.out.println("Validazione eseguita");
-            return true;
+            validato = true;
+            System.out.println(validato);
         }
     }
 

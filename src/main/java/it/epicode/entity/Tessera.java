@@ -1,6 +1,7 @@
 package it.epicode.entity;
 
 import it.epicode.entity.single_table_classes.Biglietteria;
+import it.epicode.exception.TesseraException;
 import jakarta.persistence.*;
 import lombok.Data;
 
@@ -21,6 +22,11 @@ public class Tessera {
 
     @JoinColumn
     private LocalDate dataScadenza;
+
+    public List<Abbonamento> getAbbonamenti() throws TesseraException {
+        if (abbonamenti.equals(null)) throw new TesseraException("");
+            return abbonamenti;
+    }
 
     @ManyToOne
     @JoinColumn(name = "biglietteria_id")
