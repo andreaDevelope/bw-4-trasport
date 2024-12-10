@@ -6,11 +6,11 @@
     <persistence-unit name="unit-jpa">
         <properties>
             <!-- Configurazione del database e del server-->
-            <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/sistema_trasporti"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5433/sistema_trasporti"/>
             <!-- user del db-->
             <property name="javax.persistence.jdbc.user" value="postgres"/>
             <!-- password del db-->
-            <property name="javax.persistence.jdbc.password" value="Sarabi2024!"/>
+            <property name="javax.persistence.jdbc.password" value="Fede1608"/>
 
 
             <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
