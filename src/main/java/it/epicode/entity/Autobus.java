@@ -11,6 +11,5 @@ import java.util.List;
 @Entity
 @Table(name = "autobus")
 public class Autobus extends Mezzo {
-    @OneToMany(mappedBy = "autobus", cascade = CascadeType.ALL, orphanRemoval = true)
-    private List<Tratta> listaTratte;
+
 }

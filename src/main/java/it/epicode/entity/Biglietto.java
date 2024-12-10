@@ -8,6 +8,5 @@ import lombok.Data;
 @Entity
 @Table(name = "biglietti")
 public class Biglietto extends TitoloViaggio {
-    @OneToOne(mappedBy = "biglietto")
-    private Utente titolareBiglietto;
+
 }

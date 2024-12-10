@@ -15,8 +15,7 @@ public class Tram extends Mezzo {
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
 
-    @ManyToMany
-    private List<Tratta> listaTratte=new ArrayList<>();
+
 
 
 }

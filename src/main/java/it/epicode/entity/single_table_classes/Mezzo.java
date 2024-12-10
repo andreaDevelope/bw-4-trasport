@@ -25,6 +25,7 @@ public class Mezzo {
     @ManyToMany(mappedBy = "mezzi")
     private List<Validazione> validazioni = new ArrayList<>();
 
-    @ManyToMany(mappedBy = "mezzi")
-    private List<Tratta> tratte = new ArrayList<>();
+
+    @OneToMany(mappedBy = "mezzi", cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<Tratta> listaTratte;
 }

@@ -24,6 +24,9 @@ public class Tratta {
     @Column(name = "tempo_previsto")
     private int tempoPrevisto; // Tempo di percorrenza previsto
 
+    @Column(name = "tempo_previsto")
+    private int tempoEffettivo;
+
     @ManyToMany
     @JoinTable(
             name = "tratte_mezzi",
@@ -32,7 +35,5 @@ public class Tratta {
     )
     private List<Mezzo> mezzi = new ArrayList<>();
 
-    @ManyToOne
-    @JoinColumn(name = "autobus_id") // Nome della colonna nella tabella Tratta che fa riferimento alla tabella Autobus
-    private Autobus autobus;
+
 }

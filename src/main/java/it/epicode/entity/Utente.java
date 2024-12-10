@@ -1,5 +1,6 @@
 package it.epicode.entity;
 
+import it.epicode.entity.single_table_classes.TitoloViaggio;
 import jakarta.persistence.*;
 import lombok.Data;
 
@@ -12,10 +13,12 @@ public class Utente {
     private Long id;
 
     @OneToOne
-    @JoinColumn(name = "biglietto_id")
-    private Biglietto biglietto;
+    @JoinColumn(name = "titolo_viaggio")
+    private TitoloViaggio titoloViaggio;
 
     @OneToOne
     @JoinColumn(name = "tessera_id")
     private Tessera tessera;
+
+
 }

@@ -1,5 +1,6 @@
 package it.epicode.entity.single_table_classes;
 
+import it.epicode.entity.Utente;
 import it.epicode.entity.Validazione;
 import jakarta.persistence.*;
 import lombok.Data;
@@ -20,4 +21,9 @@ public class TitoloViaggio {
     @ManyToOne
     @JoinColumn(name = "biglietteria_id")
     private Biglietteria biglietteria;
+
+    @OneToOne(mappedBy = "titoloViaggio")
+    private Utente titolareBiglietto;
+
+
 }
