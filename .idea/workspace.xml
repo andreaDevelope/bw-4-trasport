@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f1899f3-2778-464e-a34c-0bc11dab4174" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/epicode/PopolaDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/AcquistoViaggio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/entity/Biglietto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/entity/Biglietto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/entity/TrattaAutobus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/entity/TrattaTram.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/entity/single_table_classes/Tratta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/entity/Tratta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/it/epicode/ApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/it/epicode/AcquistoViaggioTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="9f1899f3-2778-464e-a34c-0bc11dab4174" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
