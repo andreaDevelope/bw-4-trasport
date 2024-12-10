@@ -9,7 +9,7 @@ import java.util.List;
 
 @Data
 @Entity
-@NamedQuery(name = "Trova_tutto_Treno", query = "SELECT a FROM Treno a")
+
 public class Tram extends Mezzo {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
