@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f1899f3-2778-464e-a34c-0bc11dab4174" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/epicode/enums/TipoAbbonamento.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/entity/Tratta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/entity/Tratta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/AcquistoViaggio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/AcquistoViaggio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/entity/Abbonamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/entity/Abbonamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/entity/Tessera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/entity/Tessera.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/entity/Utente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/entity/Utente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/entity/Validazione.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/entity/Validazione.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/entity/single_table_classes/TitoloViaggio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/entity/single_table_classes/TitoloViaggio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +26,7 @@
         <option value="Class" />
         <option value="entity" />
         <option value="test-main" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -31,12 +39,12 @@
     &quot;assignee&quot;: &quot;andreaDevelope&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/andreaDevelope/bw-4-trasport.git",
-    "accountId": "6c58fad3-45f4-4127-9c77-564960fc816f"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/andreaDevelope/bw-4-trasport.git&quot;,
+    &quot;accountId&quot;: &quot;6c58fad3-45f4-4127-9c77-564960fc816f&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -47,11 +55,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AcquistoViaggio.executor": "Run",
     "Application.PopolaDB.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Corinne__new",
+    "git-widget-placeholder": "Giulia__new",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>

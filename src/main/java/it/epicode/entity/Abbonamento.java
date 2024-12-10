@@ -1,6 +1,7 @@
 package it.epicode.entity;
 
 import it.epicode.entity.single_table_classes.TitoloViaggio;
+import it.epicode.enums.TipoAbbonamento;
 import jakarta.persistence.*;
 import lombok.Data;
 
@@ -8,8 +9,8 @@ import lombok.Data;
 @Entity
 @Table(name = "abbonamenti")
 public class Abbonamento extends TitoloViaggio {
-    @Column(name = "valido_fino")
-    private String validoFino; // Data di validità dell'abbonamento
+    @Enumerated(EnumType.STRING)
+    private TipoAbbonamento tipoAbbonamento;
 
     @ManyToOne
     @JoinColumn(name = "tessera_id")

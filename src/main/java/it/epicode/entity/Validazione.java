@@ -16,6 +16,18 @@ public class Validazione {
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
 
+    private boolean validato;
+
+    public boolean validazione(Utente u){
+        if (u.getTessera().getAbbonamenti().equals(null) || u.getTitoloViaggio().getBiglietto().equals(null)){
+            System.out.println("Devi possedere un titolo di viaggio");
+            return false;
+        } else{
+            System.out.println("Validazione eseguita");
+            return true;
+        }
+    }
+
     @OneToMany(mappedBy = "validazione", cascade = CascadeType.ALL)
     private List<TitoloViaggio> titoliViaggio = new ArrayList<>();
 
