@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f1899f3-2778-464e-a34c-0bc11dab4174" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/epicode/enums/TipoAbbonamento.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/AcquistoViaggio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/AcquistoViaggio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/entity/Abbonamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/entity/Abbonamento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/entity/Tessera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/entity/Tessera.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/entity/Utente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/entity/Utente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/entity/Validazione.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/entity/Validazione.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/entity/single_table_classes/TitoloViaggio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/entity/single_table_classes/TitoloViaggio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +53,7 @@
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Giulia__new",
+    "git-widget-placeholder": "AndreaNew",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
