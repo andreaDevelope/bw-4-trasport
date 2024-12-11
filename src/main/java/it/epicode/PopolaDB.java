@@ -27,11 +27,11 @@ public class PopolaDB {
         }
 
         // Popolazione Tessere
-        for (int i = 0; i < 10; i++) {
+        /*for (int i = 0; i < 10; i++) {
             Tessera tessera = new Tessera();
             tessera.setBiglietteria(biglietteriaDAO.findAll().get(faker.random().nextInt(0, 9)));
             tesseraDAO.create(tessera);
-        }
+        }*/
 
         em.close();
         emf.close();

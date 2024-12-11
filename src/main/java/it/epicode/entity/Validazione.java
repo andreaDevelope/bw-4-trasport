@@ -2,6 +2,7 @@ package it.epicode.entity;
 
 import it.epicode.entity.single_table_classes.Mezzo;
 import it.epicode.entity.single_table_classes.TitoloViaggio;
+import it.epicode.exception.TesseraException;
 import jakarta.persistence.*;
 import lombok.Data;
 
@@ -18,14 +19,28 @@ public class Validazione {
 
     private boolean validato;
 
-    public boolean validazione(Utente u){
-        if (u.getTessera().getAbbonamenti().equals(null) || u.getTitoloViaggio().getBiglietto().equals(null)){
-            System.out.println("Devi possedere un titolo di viaggio");
+    public boolean validazione(Utente u) {
+        if (u.getTessera() == null) {
+            System.out.println("L'utente non possiede una tessera.");
             return false;
-        } else{
-            System.out.println("Validazione eseguita");
-            return true;
         }
+
+        Tessera tessera = u.getTessera();
+
+        // Verifica se l'utente ha abbonamenti
+        if (tessera.getAbbonamenti() == null || tessera.getAbbonamenti().isEmpty()) {
+            System.out.println("La tessera non contiene abbonamenti validi.");
+            return false;
+        }
+
+        // Se il titolo di viaggio non è valido
+        if (u.getTitoloViaggio() == null || u.getTitoloViaggio().getBiglietto() == null) {
+            System.out.println("Devi possedere un titolo di viaggio.");
+            return false;
+        }
+
+        System.out.println("Validazione eseguita.");
+        return true;
     }
 
     @OneToMany(mappedBy = "validazione", cascade = CascadeType.ALL)
