@@ -33,7 +33,7 @@
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/andreaDevelope/bw-4-trasport.git",
-    "accountId": "cd5a21f8-76cc-4a75-96b9-6ad2ec67d48a"
+    "accountId": "f4213051-110f-49ca-b3d2-7c6b5f706f25"
   }
 }]]></component>
   <component name="ProjectColorInfo">{
@@ -51,7 +51,7 @@
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Giulia__new",
+    "git-widget-placeholder": "AndreaNew2",
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
