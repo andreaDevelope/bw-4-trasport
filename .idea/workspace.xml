@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f1899f3-2778-464e-a34c-0bc11dab4174" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/epicode/exception/TesseraUtenteException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/AcquistoViaggio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/AcquistoViaggio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/PopolaDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/PopolaDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/entity/Tessera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/entity/Tessera.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/entity/Utente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/entity/Utente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/entity/Validazione.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/entity/Validazione.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/entity/single_table_classes/Biglietteria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/entity/single_table_classes/Biglietteria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/exception/TesseraException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/exception/TesseraException.java" afterDir="false" />
-    </list>
+    <list default="true" id="9f1899f3-2778-464e-a34c-0bc11dab4174" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
